@@ -1,0 +1,47 @@
+.logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.logo__mark {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -0.04em;
+  background: linear-gradient(180deg, var(--blue) 48%, var(--yellow) 52%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.logo__pill {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  background: #2a2a2a;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--yellow);
+  font-family: var(--font-display);
+  font-size: 0.58rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logo--compact .logo__mark {
+  font-size: 1.55rem;
+}
+
+@media (max-width: 720px) {
+  .logo__pill {
+    display: none;
+  }
+}
