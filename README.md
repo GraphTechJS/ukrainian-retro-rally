@@ -2,11 +2,14 @@
 
 Прототип сайту клубу **Ukrainian Retro Rally** / Автоклуб Москвич Київ.
 
+- Репозиторій: https://github.com/GraphTechJS/ukrainian-retro-rally
+- Демо: https://graphtechjs.github.io/ukrainian-retro-rally/
+
 ## Стек
 
 - React + Vite
 - React Router
-- CSS modules-подібні файли по компонентах
+- CSS по компонентах
 
 ## Запуск
 
@@ -14,6 +17,8 @@
 npm install
 npm run dev
 ```
+
+Локально відкривайте: `http://localhost:5173/ukrainian-retro-rally/`
 
 ## Збірка
 
