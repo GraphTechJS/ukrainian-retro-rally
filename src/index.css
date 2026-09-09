@@ -72,6 +72,13 @@ a {
   transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
 }
 
+@media (max-width: 600px) {
+  .btn {
+    font-size: 0.88rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
 .btn:hover {
   transform: translateY(-1px);
 }

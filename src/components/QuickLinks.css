@@ -28,3 +28,16 @@
 .quick-links__item:hover {
   color: var(--yellow);
 }
+
+@media (max-width: 600px) {
+  .quick-links__inner {
+    flex-direction: column;
+    gap: 0.85rem;
+    padding: 1rem;
+  }
+
+  .quick-links__item {
+    width: fit-content;
+    font-size: 0.82rem;
+  }
+}

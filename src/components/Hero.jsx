@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { event } from '../data/content'
+import { asset } from '../utils/asset'
 import './Hero.css'
 
 export default function Hero() {
@@ -7,8 +8,9 @@ export default function Hero() {
     <section className="hero">
       <img
         className="hero__bg"
-        src="/images/hero.png"
-        alt="Ралійний Москвич на спеціальній ділянці"
+        src={asset('images/hero.png')}
+        alt=""
+        aria-hidden="true"
       />
       <div className="hero__shade" />
       <div className="hero__content">

@@ -22,8 +22,18 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .gallery-strip__grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-strip__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-strip__item {
+    aspect-ratio: 16 / 10;
   }
 }

@@ -35,6 +35,13 @@ export default function Header() {
               {item.label}
             </NavLink>
           ))}
+          <Link
+            to="/podiyi"
+            className="btn btn--yellow header__mobile-cta"
+            onClick={() => setOpen(false)}
+          >
+            Реєстрація
+          </Link>
         </nav>
         <Link to="/podiyi" className="btn btn--yellow header__cta">
           Реєстрація

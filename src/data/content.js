@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset'
+
 export const nav = [
   { to: '/novyny', label: 'Новини' },
   { to: '/podiyi', label: 'Події' },
@@ -32,19 +34,19 @@ export const quickLinks = [
 
 export const homeGallery = [
   {
-    src: '/images/gallery-moskvych.png',
+    src: asset('images/gallery-moskvych.png'),
     alt: 'Ралійний Москвич на спеціальній ділянці',
   },
   {
-    src: '/images/gallery-lancia.png',
+    src: asset('images/gallery-lancia.png'),
     alt: 'Lancia Delta Integrale',
   },
   {
-    src: '/images/gallery-audi.png',
+    src: asset('images/gallery-audi.png'),
     alt: 'Audi Quattro S1',
   },
   {
-    src: '/images/gallery-porsche.png',
+    src: asset('images/gallery-porsche.png'),
     alt: 'Porsche 911 Rally',
   },
 ]
@@ -173,52 +175,52 @@ export const crews = [
 
 export const gallery = [
   {
-    src: '/images/gallery-moskvych.png',
+    src: asset('images/gallery-moskvych.png'),
     alt: 'Москвич на ґрунтовій ділянці',
     caption: 'Москвич Rally · SS',
   },
   {
-    src: '/images/gallery-lancia.png',
+    src: asset('images/gallery-lancia.png'),
     alt: 'Lancia Delta Integrale',
     caption: 'Lancia Delta Integrale',
   },
   {
-    src: '/images/gallery-audi.png',
+    src: asset('images/gallery-audi.png'),
     alt: 'Audi Quattro',
     caption: 'Audi Quattro',
   },
   {
-    src: '/images/gallery-porsche.png',
+    src: asset('images/gallery-porsche.png'),
     alt: 'Porsche 911 Rally',
     caption: 'Porsche 911 Rally',
   },
   {
-    src: '/images/img_p6_10.jpg',
+    src: asset('images/img_p6_10.jpg'),
     alt: 'Москвич на ґрунтовій ділянці',
     caption: 'URR · ґрунтова ділянка',
   },
   {
-    src: '/images/img_p7_11.jpg',
+    src: asset('images/img_p7_11.jpg'),
     alt: 'Сервіс і екіпаж',
     caption: 'Сервіс екіпажу',
   },
   {
-    src: '/images/img_p8_10.jpg',
+    src: asset('images/img_p8_10.jpg'),
     alt: 'Зимовий ретро-заїзд',
     caption: 'Зимовий заїзд',
   },
   {
-    src: '/images/img_p6_11.jpg',
+    src: asset('images/img_p6_11.jpg'),
     alt: 'Учасники Ukrainian Retro Rally',
     caption: 'Учасники',
   },
   {
-    src: '/images/img_p7_15.jpg',
+    src: asset('images/img_p7_15.jpg'),
     alt: 'Атмосфера клубу',
     caption: 'Атмосфера клубу',
   },
   {
-    src: '/images/img_p8_11.jpg',
+    src: asset('images/img_p8_11.jpg'),
     alt: 'Ретро-техніка на старті',
     caption: 'На старті',
   },
